@@ -30,7 +30,7 @@ public class WeightCalcTest {
         String expected = ("Не указано имя.\nРост должен быть в диапазоне 50-300 см.\nВес должен быть в диапазоне 3-500 кг.\nНе указан пол.");
         Assertions.assertEquals(expected, actual);
 
-        Thread.sleep(30000);
+        Thread.sleep(4000);
         driver.quit();
     }
 
