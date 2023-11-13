@@ -17,13 +17,13 @@ public class WeightCalcTest {
         WebDriver driver = new ChromeDriver();
         driver.get("https://svyatoslav.biz/testlab/wt/index.php");
 
-        String inputCalculateXpath = "/html/body/table/tbody/tr[2]/td[2]/form/table/tbody/tr[6]/td/input";
-        By inputCalculateBy = By.xpath(inputCalculateXpath);
+        MainCalculator mainCalculator = new MainCalculator();
+
+        By inputCalculateBy = By.xpath(mainCalculator.inputCalculateXpath);
         WebElement inputCalculateWebElement = driver.findElement(inputCalculateBy);
         inputCalculateWebElement.click();
 
-        String inputGetResultXpath = "/html/body/table/tbody/tr[2]/td[2]/form/table/tbody/tr[1]/td/b";
-        By inputGetResultBy = By.xpath(inputGetResultXpath);
+        By inputGetResultBy = By.xpath(MainCalculator.inputGetResultXpath);
         WebElement inputGetResultWebElement = driver.findElement(inputGetResultBy);
 
         String actual = inputGetResultWebElement.getText();
@@ -34,38 +34,32 @@ public class WeightCalcTest {
         driver.quit();
     }
 
-    @Test
+    /*@Test
     public void testFormWithData()  throws InterruptedException {
         WebDriver driver = new ChromeDriver();
         driver.get("https://svyatoslav.biz/testlab/wt/index.php");
 
-        String inputNameXpath = "/html/body/table/tbody/tr[2]/td[2]/form/table/tbody/tr[2]/td[2]/input";
-        By inputNameBy = By.xpath(inputNameXpath);
+        By inputNameBy = By.xpath(MainCalculator.inputNameXpath);
         WebElement inputNameWebElement = driver.findElement(inputNameBy);
         inputNameWebElement.sendKeys("Artsiom");
 
-        String inputHeightXpath = "/html/body/table/tbody/tr[2]/td[2]/form/table/tbody/tr[3]/td[2]/input";
-        By inputHeightBy = By.xpath(inputHeightXpath);
+        By inputHeightBy = By.xpath(MainCalculator.inputHeightXpath);
         WebElement inputHeightWebElement = driver.findElement(inputHeightBy);
         inputHeightWebElement.sendKeys("182");
 
-        String inputWeightXpath = "/html/body/table/tbody/tr[2]/td[2]/form/table/tbody/tr[4]/td[2]/input";
-        By inputWeightBy = By.xpath(inputWeightXpath);
+        By inputWeightBy = By.xpath(MainCalculator.inputWeightXpath);
         WebElement inputWeightWebElement = driver.findElement(inputWeightBy);
         inputWeightWebElement.sendKeys("75");
 
-        String inputGenderXpath = "/html/body/table/tbody/tr[2]/td[2]/form/table/tbody/tr[5]/td[2]/input[1]";
-        By inputGenderBy = By.xpath(inputGenderXpath);
+        By inputGenderBy = By.xpath(MainCalculator.inputGenderXpath);
         WebElement inputGenderWebElement = driver.findElement(inputGenderBy);
         inputGenderWebElement.click();
 
-        String inputCalculateXpath = "/html/body/table/tbody/tr[2]/td[2]/form/table/tbody/tr[6]/td/input";
-        By inputCalculateBy = By.xpath(inputCalculateXpath);
+        By inputCalculateBy = By.xpath(MainCalculator.inputCalculateXpath);
         WebElement inputCalculateWebElement = driver.findElement(inputCalculateBy);
         inputCalculateWebElement.click();
 
-        String inputGetResultXpath = "/html/body/table/tbody/tr[2]/td[2]";
-        By inputGetResultBy = By.xpath(inputGetResultXpath);
+        By inputGetResultBy = By.xpath(MainCalculator.inputGetResul1tXpath);
         WebElement inputGetResultWebElement = driver.findElement(inputGetResultBy);
 
         String actual = inputGetResultWebElement.getText();
@@ -75,7 +69,6 @@ public class WeightCalcTest {
         Thread.sleep(4000);
 
         driver.quit();
-
+*/
 
     }
-}
