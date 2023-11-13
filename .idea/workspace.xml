@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aa197853-c049-4417-a816-c86b67d7550a" name="Changes" comment="Deleted gitignore">
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/itacademy/zaitsev/WeightCalcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/itacademy/zaitsev/WeightCalcTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2Y1E1MSjIo2FbX1pQnbLsB2AtUf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="compactDirectories" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/Zaitsev/IdeaProjects/taf-weight-cal3/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+    ]
+  }
+}</component>
+  <component name="RunManager" selected="JUnit.WeightCalcTest.testFormWithEmptyValues">
+    <configuration name="WeightCalcTest.testFormWithData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taf-weight-cal3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.itacademy.zaitsev.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.itacademy.zaitsev" />
+      <option name="MAIN_CLASS_NAME" value="by.itacademy.zaitsev.WeightCalcTest" />
+      <option name="METHOD_NAME" value="testFormWithData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeightCalcTest.testFormWithEmptyValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taf-weight-cal3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.itacademy.zaitsev.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.itacademy.zaitsev" />
+      <option name="MAIN_CLASS_NAME" value="by.itacademy.zaitsev.WeightCalcTest" />
+      <option name="METHOD_NAME" value="testFormWithEmptyValues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.WeightCalcTest.testFormWithEmptyValues" />
+        <item itemvalue="JUnit.WeightCalcTest.testFormWithData" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa197853-c049-4417-a816-c86b67d7550a" name="Changes" comment="" />
+      <created>1699684470414</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699684470414</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Commit new test with data">
+      <option name="closed" value="true" />
+      <created>1699897956030</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699897956030</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Commit new test with data">
+      <option name="closed" value="true" />
+      <created>1699898037209</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699898037209</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Commit new test with data">
+      <option name="closed" value="true" />
+      <created>1699898521046</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699898521046</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Commit new test with data">
+      <option name="closed" value="true" />
+      <created>1699898735135</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699898735135</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1699899006715</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699899006715</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Deleted .idea">
+      <option name="closed" value="true" />
+      <created>1699899104630</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699899104630</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Deleted gitignore">
+      <option name="closed" value="true" />
+      <created>1699899221768</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699899221768</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="InterruptedException,driver.quit();" />
+    <MESSAGE value="Commit new test with data" />
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Deleted .idea" />
+    <MESSAGE value="Deleted gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted gitignore" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -34,8 +34,8 @@ public class WeightCalcTest {
         driver.quit();
     }
 
-    /*@Test
-    public void testFormWithData()  throws InterruptedException {
+    @Test
+    public void testFormWithData() throws InterruptedException {
         WebDriver driver = new ChromeDriver();
         driver.get("https://svyatoslav.biz/testlab/wt/index.php");
 
@@ -69,6 +69,6 @@ public class WeightCalcTest {
         Thread.sleep(4000);
 
         driver.quit();
-*/
 
     }
+}
